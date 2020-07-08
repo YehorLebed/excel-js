@@ -1,0 +1,30 @@
+{
+  "name": "excel-web",
+  "version": "1.0.0",
+  "description": "pure js excel app",
+  "main": "webpack.config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack",
+    "build": "webpack --mode production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YehorLebed/excel-js.git"
+  },
+  "keywords": [
+    "js",
+    "excel",
+    "javascript"
+  ],
+  "author": "Yehor Lebed <lebed.egor01@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/YehorLebed/excel-js/issues"
+  },
+  "homepage": "https://github.com/YehorLebed/excel-js#readme",
+  "devDependencies": {
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.12"
+  }
+}
