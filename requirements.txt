@@ -1,0 +1,17 @@
+Webpack (import/export)
+  Babel
+  Scss
+  Eslint
+  2 Modes
+    - Dev:  [ Dev server, SourceMaps, Eslint, Not Minified files ]
+    - Prod: [ Minified files ]
+
+Git
+  Production: 
+    - 1.0.0
+    (branch) 0 ---------------
+  Development: 
+    - 1.0.2
+    (branch) 1 ---------------     => merge 1 && delete 2
+    (branch) 2 --------------- |
+                           pull request
